@@ -50,7 +50,8 @@ Datawise Solutions needs to efficiently manage AWS Identity and Access Managemen
 6. Review and create user
 7. Download or copy Access Key ID and Secret Access Key
 
-I used a pre-existing IAM User, and added access key
+**I used a pre-existing IAM User, and added access key**
+
 ![Insert IAM user creation image here](/images/cli.png)
 ![](/images/access-keys.png)
 ![](/images/iam-tag.png)
@@ -247,6 +248,20 @@ aws configure
 aws iam list-users --output json
 aws iam list-groups --output json
 ```
+**CREATING USER FROM SCRIPT**
+![](/images/cli-creating-user.png)
+
+**JSON LIST OF USERS**
+
+![](/images/json-list-of-users.png)
+
+**JSON LIST OF GROUPS**
+
+![](/images/json-list-of-groups.png)
+
+**ATTACHED ADMIN POLICY TO ADMIN GROUP**
+
+![](/images/attached-admin-policy-to-admin-group.png)
 
 ## 5. Conclusion
-This READme file, provides a comprehensive description of how the project was carried out. which includes, creating an IAM user adding policy to user, Defined the IAM user names array, created iam group, attached administrative policy to group and assigned users to group all by using AWS CLI. 
+This READme file, provides a comprehensive description of how the project was carried out. which includes, creating an IAM user adding policy to user, Defined the IAM user names array, created iam group, attached administrative policy to group and assigned users to group all by using AWS CLI.
